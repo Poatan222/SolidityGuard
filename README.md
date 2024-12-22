@@ -19,6 +19,8 @@ SolidityGuard scans Solidity smart contracts for the following vulnerabilities:
 11. Selfdestruct Usage
 12. Missing Fallback Functions
 and much more incoming....
+
+
 SolidityGuard supports CI/CD integration using GitHub Actions. See the .github/workflows/solidityguard.yml file for configuration details. This ensures your smart contracts are scanned automatically during code pushes and pull requests.
 
 # Use Cases
