@@ -1,5 +1,5 @@
 # SolidityGuard
-SolidityGuard is a Python-based security scanner designed to identify vulnerabilities in Solidity smart contracts. This tool is essential for developers and auditors to enhance the security posture of their decentralized applications (dApps).
+This is a Python-based security scanner designed to identify common vulnerabilities as per the SWCs in Solidity smart contracts. This tool is essential for developers and auditors to enhance the security posture of their decentralized applications (dApps).
 
 SolidityGuard provides a quick and efficient way to detect common vulnerabilities in Solidity code, making it a valuable tool for developers, auditors, and organizations working in the Web3 ecosystem
 
