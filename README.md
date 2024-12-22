@@ -40,15 +40,15 @@ Use SolidityGuard to ensure your contract adheres to basic security standards be
 
 # Installation
 1. Clone the Repository:
-git clone https://github.com/Poatan222/SolidityGuard.git
-cd SolidityGuard
-Set Up Python Environment: Ensure Python 3.10 or above is installed on your system.
-
-2. Install Dependencies:
+2. git clone https://github.com/Poatan222/SolidityGuard.git
+3. cd SolidityGuard
+4. Set Up Python Environment: Ensure Python 3.10 or above is installed on your system.
+   
+# Install Dependencies:
 pip install -r requirements.txt
 Optional: Run tests to validate the installation:
 python -m unittest discover tests
-3. Usage
+# Usage
 Run the scanner on a Solidity contract:
 python scanner/scanner.py scanner/examples/vulnerable_contract.sol
 You can also test additional vulnerable contracts included in the examples/ directory.
