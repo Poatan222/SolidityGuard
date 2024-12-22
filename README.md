@@ -6,19 +6,19 @@ SolidityGuard provides a quick and efficient way to detect common vulnerabilitie
 # Current Features
 SolidityGuard scans Solidity smart contracts for the following vulnerabilities:
 
-Reentrancy Attacks
-Integer Overflow and Underflow
-Hardcoded Secrets
-Unrestricted Access Control
-Unchecked External Calls
-DoS with Gas Limit
-Timestamp Dependency
-Delegatecall Misuse
-Uninitialized Storage Variables
-Floating Pragma Version
-Selfdestruct Usage
-Missing Fallback Functions
-
+1. Reentrancy Attacks
+2. Integer Overflow and Underflow
+3. Hardcoded Secrets
+4. Unrestricted Access Control
+5. Unchecked External Calls
+6. DoS with Gas Limit
+7. Timestamp Dependency
+8. Delegatecall Misuse
+9. Uninitialized Storage Variables
+10. Floating Pragma Version
+11. Selfdestruct Usage
+12. Missing Fallback Functions
+and much more incoming....
 SolidityGuard supports CI/CD integration using GitHub Actions. See the .github/workflows/solidityguard.yml file for configuration details. This ensures your smart contracts are scanned automatically during code pushes and pull requests.
 
 # Use Cases
